@@ -4,5 +4,4 @@ Ce projet est un site web de **banque d'images**.
 
 - Galerie d’images avec affichage responsive
 - Recherche par mot-clé
-- Téléchargement d’images
-- Interface moderne et épurée
+- Interface moderne 
