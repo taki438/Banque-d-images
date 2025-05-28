@@ -5,7 +5,8 @@ $message = '';
 // Connexion à la base de données
 function connectDB() {
     try {
-        $pdo = new PDO('mysql:host=localhost;dbname=banque_images', 'root', '');
+        $pdo = new PDO('mysql:host=localhost;dbname=l2info', 'l2info', 'l2info');
+        
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $pdo;
     } catch (PDOException $e) {
